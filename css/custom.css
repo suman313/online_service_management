@@ -1,0 +1,24 @@
+.navbar-brand{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar #menuItem .custom-nav .nav-item a{
+ color: #fff;
+}
+
+.navbar #menuItem .custom-nav .nav-item a:hover{
+ color: #1AC8DE;
+}
+
+/*Make header Image Responsive*/
+
+.back-image{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	border-radius: 0px;
+	margin-top: 74px;
+}
