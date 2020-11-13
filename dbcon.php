@@ -9,6 +9,6 @@ $conn = mysqli_connect($hostName,$userName,$password,$dbName);
  	
  }
  else
- 	echo "Not connected";
+ 	echo "Not connected";// This is a comment
  	
  ?>

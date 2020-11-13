@@ -19,7 +19,7 @@ else
 if(isset($name) && isset($email) && isset($pswd)){
 	$sql = "INSERT INTO user(name, email, password) VALUES ('$name','$email','$pswd')";
 	if($conn->query($sql)){
-		header('location:http://localhost/online_service_management/login.php');
+		header('location:http://localhost/online_service_management/login.php');lll
 	}
 	else{
 	$errmsg = "Something went wrong";
